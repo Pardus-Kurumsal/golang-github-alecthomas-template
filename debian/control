@@ -1,0 +1,17 @@
+Source: golang-github-alecthomas-template
+Section: devel
+Priority: extra
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Build-Depends: debhelper (>= 9),dh-golang, golang-go
+Standards-Version: 3.9.5
+Homepage: https://github.com/howeyc/fsnotify.git
+
+Package: golang-github-alecthomas-template-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Conflicts: golang-template.alecthomas-dev
+Breaks: golang-template.alecthomas-dev
+Provides: golang-template.alecthomas-dev
+Description: Go's text/template package with newline elision.
+ This is a fork of Go 1.4's text/template package with one addition: a backslash 
+ immediately after a closing delimiter will delete all subsequent newlines until a non-newline.

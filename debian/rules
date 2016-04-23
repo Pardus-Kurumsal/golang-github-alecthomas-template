@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+export DH_GOPKG := github.com/alecthomas/template
+export DH_GOLANG_EXCLUDES := ${DH_GOPKG}/testdata
+export DEB_BUILD_OPTIONS := nocheck
+
+%:
+	dh $@ --buildsystem=golang --with=golang

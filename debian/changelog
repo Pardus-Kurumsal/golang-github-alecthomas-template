@@ -1,0 +1,11 @@
+golang-github-alecthomas-template (0.0~git20160420) xenial; urgency=medium
+
+  * update to 20160420.
+
+ -- lilongyu <leaeasy@gmail.com>  Sat, 23 Apr 2016 21:22:47 +0800
+
+golang-github-alecthomas-template (0.0~git20160119) unstable; urgency=medium
+
+  * initial release.
+
+ -- Deepin Packages Builder <packages@linuxdeepin.com>  Thu, 11 Jun 2015 14:31:13 +0800
